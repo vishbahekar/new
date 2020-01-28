@@ -14,7 +14,6 @@ public class FirstServlet extends HttpServlet {
 
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
-		wwww
 		String n=request.getParameter("username");
 		String p=request.getParameter("userpass");
 		
